@@ -1,3 +1,5 @@
+-- B. Transformation function
+
 CREATE OR REPLACE FUNCTION format_rental_duration(duration_hours DOUBLE PRECISION)
 RETURNS VARCHAR AS $$
 DECLARE
